@@ -1,1 +1,6 @@
 # goldMiner-java-Game
+This is a simple gold miner game where the player takes on the role of a gold miner, controlling a hook that swings back and forth to grab minerals. Once the hook is released, it will automatically return if it goes out of bounds or hooks onto an item. If an item is hooked, it will be dragged back to the surface. Underground, there are explosives, rats, and various minerals, each yielding different scores and playing different sound effects when hooked.
+
+The score panel is located in the top left corner, showing the required score for the current level and the player's current score. The game has a total of 5 levels, with the position of the minerals differing in each level. Each level has a time limit, and if the required score is not achieved within the time limit, the game is over. Scores can be accumulated across levels. The time remaining is indicated by a progress bar below the score panel, turning red when less than 30% of the time remains. When the game ends, a game over screen will pop up.
+
+The controls are very simple. After launching the game, enter the start screen and select "Start Game" to enter the main game screen. During the game, press the spacebar to release the hook, and press the P key to pause/resume the game. If the game is lost, you can click the retry button to replay.
